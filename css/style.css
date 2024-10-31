@@ -1,0 +1,18 @@
+.os_slider_wrapper #osbx-thumbnail {
+    margin-top: -30px;
+    text-align: center;
+}
+.os_slider_wrapper #osbx-thumbnail a {
+    margin: 0 3px;
+    border: none;
+    display: inline-block;
+}
+.os_slider_wrapper #osbx-thumbnail a img {
+    border: 1px solid #ccc;
+    padding: 3px;
+}
+.os_slider_wrapper #osbx-thumbnail a:hover img, 
+.os_slider_wrapper #osbx-thumbnail a.active img {
+    
+    border: 1px solid #5280dd;
+}
